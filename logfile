@@ -1,0 +1,24 @@
+2025-03-05 17:48:10.933 PST [22614] LOG:  starting PostgreSQL 17.0 on aarch64-unknown-linux-android, compiled by Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262), 64-bit
+2025-03-05 17:48:10.938 PST [22614] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-03-05 17:48:10.948 PST [22614] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2025-03-05 17:48:10.982 PST [22619] LOG:  database system was interrupted; last known up at 2025-02-28 19:10:54 PST
+2025-03-05 17:48:11.269 PST [22619] LOG:  database system was not properly shut down; automatic recovery in progress
+2025-03-05 17:48:11.284 PST [22619] LOG:  redo starts at 0/1946CD8
+2025-03-05 17:48:11.286 PST [22619] LOG:  invalid record length at 0/1947B08: expected at least 24, got 0
+2025-03-05 17:48:11.287 PST [22619] LOG:  redo done at 0/1947AD0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-03-05 17:48:11.309 PST [22617] LOG:  checkpoint starting: end-of-recovery immediate wait
+2025-03-05 17:48:11.348 PST [22617] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.017 s, sync=0.006 s, total=0.044 s; sync files=6, longest=0.003 s, average=0.001 s; distance=3 kB, estimate=3 kB; lsn=0/1947B08, redo lsn=0/1947B08
+2025-03-05 17:48:11.380 PST [22614] LOG:  database system is ready to accept connections
+2025-03-05 17:48:48.037 PST [22710] ERROR:  database "msf_test" already exists
+2025-03-05 17:48:48.037 PST [22710] STATEMENT:  CREATE DATABASE msf_test;
+2025-03-05 17:51:49.053 PST [22817] ERROR:  database "msf_test" already exists
+2025-03-05 17:51:49.053 PST [22817] STATEMENT:  CREATE DATABASE msf_test;
+2025-03-05 18:49:02.320 PST [24091] LOG:  could not receive data from client: Connection reset by peer
+2025-03-05 18:50:35.913 PST [24228] LOG:  could not receive data from client: Connection reset by peer
+2025-03-05 18:50:47.185 PST [24229] LOG:  invalid length of startup packet
+2025-03-05 18:50:47.193 PST [24232] LOG:  invalid length of startup packet
+2025-03-05 18:50:47.208 PST [24233] FATAL:  unsupported frontend protocol 65363.19778: server supports 3.0 to 3.0
+2025-03-05 18:52:09.600 PST [24390] LOG:  invalid length of startup packet
+2025-03-05 18:52:09.673 PST [24392] LOG:  invalid length of startup packet
+2025-03-05 18:52:09.735 PST [24397] LOG:  invalid length of startup packet
+2025-03-05 18:52:09.789 PST [24399] LOG:  invalid length of startup packet

@@ -1,0 +1,3 @@
+carz = "mercedes"
+
+print(carz)
